@@ -12,10 +12,10 @@ var chipTemplate = `<div class="chip"></div>`
 var board = document.getElementById("board")
 console.log(board)
 var content = "";
-//var i=1;
-//while (i<=10)
-//{
-//  content = content + chipTemplate;
-//  i = i + 1;
-//}
+var i=0;
+while (i<=41)
+{
+  content = content + chipTemplate;
+  i = i + 1;
+}
 board.innerHTML = content;
