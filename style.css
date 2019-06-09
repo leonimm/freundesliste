@@ -1,3 +1,19 @@
 h1 {
-  color: brown;
+  background-color: yellow;
+  text-align: center;
+}
+ body {
+   color: rgb(120,120,120);
+   background-color:cornflowerblue;
+ }
+
+ #board {
+   background-color:black;
+ }
+  
+.chip {
+  background-color: brown;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
